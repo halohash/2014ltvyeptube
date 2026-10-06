@@ -181,7 +181,7 @@ export async function onRequest(context) {
                             {
                                 url:
                                     channelThumbnail?.url ||
-                                    "https://file.garden/aUYIWVAKvQxCBY-_/database/images/profilepuckett.png",
+                                    `https://dingle-accs.pages.dev/user?name=${video.author}&profile`,
                                 width: 88,
                                 height: 88
                             }
