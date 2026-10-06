@@ -10966,7 +10966,7 @@
     }
     ;
     d.dg = function() {
-        return this.g.useTestInnerTube ? "https://www-googleapis-test.sandbox.google.com/youtubei/vi" : this.g.useReleaseInnerTube || this.g.qg && !this.g.L ? "https://www-googleapis-staging.sandbox.google.com/youtubei/v1release" : "https://2014ltv.pages.dev/youtubei/v1"
+        return this.g.useTestInnerTube ? "https://www-googleapis-test.sandbox.google.com/youtubei/vi" : this.g.useReleaseInnerTube || this.g.qg && !this.g.L ? "https://www-googleapis-staging.sandbox.google.com/youtubei/v1release" : "https://2014ltvyeptube.pages.dev/youtubei/v1"
     }
     ;
     d.Id = function(a) {
