@@ -17772,7 +17772,7 @@ if (id) {
     var video = document.querySelector('.html5-video-container .video-stream.html5-main-video');
 
     if (video) {
-        video.src = "https://yt2009.truehosting.net/channel_fh264_getvideo?v=" + id;
+        video.src = "https://thedust.pages.dev/yeptube/getvideo?v=" + id;
         video.load();
         video.play();
         return;
@@ -45562,7 +45562,7 @@ if (id) {
 
     if ((!formats || !formats.length) && id) {
       return [{
-        url: "https://yt2009.truehosting.net/channel_fh264_getvideo?v=" + id,
+        url: "https://thedust.pages.dev/yeptube/getvideo?v=" + id,
         mimeType: "video/mp4"
       }];
     }
