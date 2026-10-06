@@ -15,7 +15,7 @@ export async function onRequest(context) {
     let playlist = false;
 
     
-        endpoint = "https://inv.truehosting.net/api/v1/search?q=" + encodeURIComponent(query);
+        endpoint = "https://yeptube.pages.dev/api/v1/search?q=" + encodeURIComponent(query);
 
     try {
         const response = await fetch(endpoint, {
