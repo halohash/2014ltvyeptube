@@ -16,42 +16,10 @@ export async function onRequest(context) {
 
     if (browseId === "FEwhat_to_watch") {
         endpoint =
-            "https://yeptube.pages.dev/api/v1/popular";
-
-    } else if (browseId === "FEuploads") {
-        endpoint =
-            "https://yeptube.pages.dev/api/v1/search?q=google%20nexus%20before:2014";
-
-    } else if (browseId === "FEtopics") {
-        endpoint =
-            "https://yeptube.pages.dev/api/v1/search?q=xbox%20before:2015";
-
-    } else if (browseId === "FEtopics_purchases") {
-        endpoint =
-            "https://yeptube.pages.dev/api/v1/search?q=https%3A%2F%2Fyoutube.com%2Fdevicesupport";
-
-    } else if (browseId.startsWith("UC")) {
-        endpoint =
-            `https://yeptube.pages.dev/api/v1/channels/${encodeURIComponent(browseId)}`;
-
-        channelUploads = true;
-
-    } else if (browseId.startsWith("PL") || browseId.startsWith("FL")) {
-        endpoint =
-            `https://yeptube.pages.dev/api/v1/playlists/${encodeURIComponent(browseId)}`;
-
-        playlist = true;
-
-    } else if (browseId === "FEmusic") {
-        endpoint =
-            "https://yeptube.pages.dev/api/v1/search?q=music%20before:2015";
-
-    } else if (browseId === "FEmeg") {
-        return Response.redirect("https://2014ltv.pages.dev/youtubei/v1/meg", 302);
-
+            "https://yeptube.pages.dev/api/v1/trending";
     } else {
         endpoint =
-            "https://yeptube.pages.dev/api/v1/popular";
+            "https://yeptube.pages.dev/api/v1/trending";
     }
 
     try {
